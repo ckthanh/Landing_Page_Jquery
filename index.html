@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8" />
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+	<!--Support cho Internet Explorer (IE 9 or IE 8)-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!--Cho mobile và tablet-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
+	
+
+	<title> Môn lập trình Web</title>
+
+	<!-- Link cho CSS
+	 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css"/> 
+	-->
+	<link rel="stylesheet" href="web.css">
+
+
+	<!-- Link cho Snarl
+	<link rel="stylesheet" ng-href="https://github.com/hoxxep/Snarl">
+-->
+
+<!-- Link cho Fonts-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Link cho Material Design Bootstrap -->
+
+<!-- Link cho Bootstrap-->
+<link rel="stylesheet" href="styles/bootstrap.min.css">
+<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+<link rel="stylesheet" href="styles/waves.css">
+
+<!-- Mới -->
+<!--link rel="stylesheet" href="styles/mdb.css">	-->
+<!--<link rel="stylesheet" href="styles/snarl.css">-->
+
+
+<!-- Link cho JavaScript-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<!--
+		<script src="js/snarl.js"></script>	
+		<script src="js/popper.min.js"></script>
+	-->
+	<script src="js/scrollreveal.js"></script>
+	<script src="js/waves.js"></script>
+	
+
+
+
+	
+	
+	<script type="text/javascript" src="web.js"></script>
+
+	<style>
+	#colored-button .btn { color: #fff; }
+	
+	#colored-button button,
+	#colored-button button:hover { background: #1bb556; }
+
+</style>
+</head>
+<body>
+	<div class="momo"></div>
+	<div class="bo">
+		
+		<div class="boxmodal">
+			<h2>Đồ án cuối kỳ LTWeb</h2>
+			<h4>Đề tài: Blog chia sẻ kiến thức IT</h4>
+			<h4>Sinh Viên Thực Hiện</h4>
+			<ul>
+				<li>Châu Khiêm Thành -- 15DH110278</li>
+			</ul>
+			
+			<button type="button" class="btn btn-danger">Close</button>
+		</div></div>
+		<header>	
+			<!-- Ảnh background -->
+			<div class="anh-header">
+				<img src="images/KhiemThanhCover2.png" alt="Bầu trời" >
+			</div>
+
+			<div class="chuto">Chào mừng đến Blog</div>
+			<div class="chunho">Chia sẻ để tốt hơn</div>
+			
+			<!-- Phần Navbar -->
+			<nav class="main-navigation sticky-transparent transparent" role="navigation">
+				<div class="nav-wrapper container">
+					<!-- Khúc đầu của header-->
+					<div class="col-md-3 col-xs-4">
+						<img src="images/vip.png" alt="Logo" >
+					</div>
+					
+					<!-- Khúc giữa của header-->
+
+					<div class="col-md-9 col-xs-8">
+						<ul>
+							<!--Trang chủ-->
+							<li id="menu-item">					
+								<a href="web.html">Trang chủ</a>						
+							</li>  <!--Kết thúc phần Trang chủ-->
+							
+
+							<!--Kiến thức-->
+							<li id="menu-item">
+								
+								<a href="#">Kiến thức</a>
+								
+								<!--Nội dung con-->
+								<ul class="sub-item">
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="#">Photoshop</a>
+										</span>
+										
+										<ul class="subsub-item">
+											<li>
+												<span class="waves-effect waves-block waves-classic">
+													<a href="#">PS - Tips of the day</a>
+												</span>
+											</li>
+										</ul>
+									</li>	
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="#">Illustrator</a>
+										</span>
+									</li>		
+									
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="#">Lightroom</a>
+										</span>
+									</li>						 		
+								</ul>
+							</li>  <!--Kết thúc phần Kiến thức-->
+
+							<!--Download-->
+							<li id="menu-item">
+								
+								<a href="#">Download</a>
+								
+								<!--Nội dung con-->
+								<ul class="sub-item">
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="#">Stocks</a>
+										</span>							 			
+									</li>	
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="#">Vector</a>
+										</span>							 			
+									</li>
+
+									
+								</ul>
+							</li><!--Kết thúc phần Download-->
+
+							<!--Khóa học-->
+							<li id="menu-item">
+								
+								<a href="#">Khóa học</a>
+								
+								<!--Nội dung con-->
+								<ul class="sub-item">
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="http://uyen.vn/download/vector/">Khóa học PTS cơ bản</a>
+										</span>							 			
+									</li>
+
+									<li  >
+										<span class="waves-effect waves-block waves-classic">
+											<a href="http://uyen.vn/khoahoclayout/">Khóa học Layout & Grid System</a>
+										</span>
+									</li>
+
+									<li>
+										<span class="waves-effect waves-block waves-classic">
+											<a href="http://uyen.vn/khoahocui/">Khóa học Mobile UI Design</a>
+										</span>
+									</li>
+								</ul>
+							</li><!--Kết thúc phần Khóa học-->
+
+							<!--Liên hệ-->
+							<li id="menu-item">							 	
+								<a href="#">Liên hệ</a>								
+							</li>							
+						</ul><!-- <ul> dùng chung-->
+						</div>													
+					</div> <!--Kết thúc div  nav-wrapper container--> 
+				</nav>		
+			</header>
+			
+
+
+			<!-- Session trước Kiến thức -->	
+			<section class="session6">
+				
+				<div class="containersession6">
+					<div class="chuatoanbo" data-scroll-reveal="enter top and move 50px" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<h3>
+							<span>Kiến thức</span>
+							<br>
+							"
+							Bài viết hiện tại
+							"
+						</h3>
+					</div>
+				</div>
+			</section>
+
+			<!-- Session Kiến thức-->
+			
+
+			<section class="session7">
+				<div class="containersession7">	
+					<div class="row">
+						<div class="col-sm-4 col-md-4">
+							<article id="article1">
+
+								<!--Phần đầu-->
+								<a href="#" rel="bookmark">  
+									<div class="pts">
+										<div class="gradient1"></div>
+										<img src="images\pts3.png" alt="PTS" width="380px">
+									</div>
+								</a>
+
+								<!--Phần giữa-->
+								<div class="article-content">
+									<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+										<span>&#x2764;</span>
+									</a>
+
+									<header class="phan-dau">
+										<h1  >
+											<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px"> Hiệu ứng chồng ảnh bằng Blending options
+											</a>
+										</h1>
+										<p style="text-align: justify;">
+											Với hiệu ứng chồng ảnh này, chúng ta có rất nhiều cách khác nhau để làm, ở video này chỉ giới thiệu cho mọi người cách làm hiệu ứng chồng ảnh bằng Blending Options để mọi người có nhiều sự lựa chọn hơn trong quá trình thao tác với Photoshop[…]
+										</p>
+									</header>
+								</div>
+
+								<footer id="footer1">
+									<span id="links">
+										<i class="fa fa-check-square-o">
+											<a href="#">ARTICLE</a> 
+											,
+											<a href="#">PTS</a>
+										</i>
+
+
+									</span>
+
+									<span class="comment-link">
+										<i class="fa fa-comments-o"></i>				
+									</span>
+								</footer>
+							</article>
+						</div>
+						<div class="col-sm-4 col-md-4">
+							<article id="article1">
+
+								<!--Phần đầu-->
+								<a href="#" rel="bookmark">  
+									<div class="pts">
+										<div class="gradient1"></div>
+										<img src="images\ai1.png" alt="AI" width="380px" height="237.5px">
+									</div>
+								</a>
+
+								<!--Phần giữa-->
+								<div class="article-content">
+									<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+										<span>&#x2764;</span>
+									</a>
+
+									<header class="phan-dau">
+										<h1>
+											<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px"> 10 LÝ DO BẠN NÊN HỌC ADOBE ILLUSTRATOR
+											</a>
+										</h1>
+										<p style="text-align: justify;">
+											Đối với bất cứ nhà thiết kế đồ họa nào cũng đều nên biết kết hợp nhiều phần mềm đồ họa khác nhau để tạo nên những tác phẩm hiệu quả cao.  Đa số mọi người khi nghe đến “thiết kế đồ họa” là nghĩ ngay đến Adobe Photoshop. Còn bạn thì sao? Bạn đã […]
+										</p>
+									</header>
+								</div>
+
+								<footer id="footer1">
+									<span id="links">
+										<i class="fa fa-check-square-o">
+											<a href="#">ARTICLE</a> 
+											,
+											<a href="#">ILLUSTRATOR</a>
+										</i>
+
+
+									</span>
+
+									<span class="comment-link">
+										<i class="fa fa-comments-o"></i>				
+									</span>
+								</footer>
+							</article>
+							
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<article id="article1">
+
+								<!--Phần đầu-->
+								<a href="#" rel="bookmark">  
+									<div class="pts">
+										<div class="gradient1"></div>
+										<img src="images\lr2.png" alt="LIGHTROOM" width="380px">
+									</div>
+								</a>
+
+								<!--Phần giữa-->
+								<div class="article-content">
+									<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+										<span>&#x2764;</span>
+									</a>
+
+									<header class="phan-dau">
+										<h1>
+											<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px"> XỬ LÝ DA BẰNG LIGHTROOM
+											</a>
+										</h1>
+										<p style="text-align: justify;">
+											Ngày nay khi Lightroom ngày càng phát triển và hỗ trợ nhiều hơn cho nhiếp ảnh, ngoài việc cân chỉnh ánh sáng, màu sắc, đổi tone màu và quản lý cũng như xử lý số lượng nhiều ảnh cùng lúc, đây là điều thuận tiện hơn Photoshop khi hậu kỳ ảnh. Tuy không có những […]
+										</p>
+									</header>
+								</div>
+
+								<footer id="footer1">
+									<span id="links">
+										<i class="fa fa-check-square-o">
+											<a href="#">ARTICLE</a> 
+											,
+											<a href="#">LIGHTROOM</a>
+										</i>
+
+
+									</span>
+
+									<span class="comment-link">
+										<i class="fa fa-comments-o"></i>				
+									</span>
+								</footer>
+							</article>
+						</div>
+						
+
+						<div class="loadmore">	
+							<!--PTS1-->
+							<div class="col-sm-4 col-md-4">
+								<article id="article1">
+
+									<!--Phần đầu-->
+									<a href="#" rel="bookmark">  
+										<div class="pts">
+											<div class="gradient1"></div>
+											<img src="images\pts1.png" alt="PTS" width="380px">
+										</div>
+									</a>
+
+									<!--Phần giữa-->
+									<div class="article-content">
+										<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+											<span>&#x2764;</span>
+										</a>
+
+										<header class="phan-dau">
+											<h1  >
+												<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px"> TẠO XOÁY NƯỚC TRONG 1 PHÚT PHOTOSHOP
+												</a>
+											</h1>
+											<p style="text-align: justify;">
+												Với một số hình ảnh tĩnh thì không mang lại cảm xúc cho người xem cao như mục đích mình muốn truyền đạt, video này Uyên chia sẻ cho mọi người cách tạo xoáy nước trong 1 phút Photoshop để giúp những hình ảnh chụp ly nước vẫn có thể có được hiệu ứng chuyển […]
+											</p>
+										</header>
+									</div>
+
+									<footer id="footer1">
+										<span id="links">
+											<i class="fa fa-check-square-o">
+												<a href="#">ARTICLE</a> 
+												,
+												<a href="#">PTS</a>
+											</i>
+
+
+										</span>
+
+										<span class="comment-link">
+											<i class="fa fa-comments-o"></i>				
+										</span>
+									</footer>
+								</article>
+							</div>
+
+
+							<!--AI2-->
+							<div class="col-sm-4 col-md-4">
+								<article id="article1">
+
+									<!--Phần đầu-->
+									<a href="#" rel="bookmark">  
+										<div class="pts">
+											<div class="gradient1"></div>
+											<img src="images\ai2.png" alt="AI" width="380px" height="237.5px">
+										</div>
+									</a>
+
+									<!--Phần giữa-->
+									<div class="article-content">
+										<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+											<span>&#x2764;</span>
+										</a>
+
+										<header class="phan-dau">
+											<h1>
+												<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px">MỞ FILE AI TRONG PHOTOSHOP
+												</a>
+											</h1>
+											<p style="text-align: justify;">
+												Như các bạn đã biết, quá trình thiết kế có đôi khi phải tương tác qua lại giữa phần mềm Illustrator và Photoshop, vì không phải ai cũng biết xài Illustrator, trong khi Photoshop thịnh hành hơn rất nhiều. Đã có bao giờ bạn gặp khó khăn khi muốn xử lý một file AI ngay […]
+											</p>
+										</header>
+									</div>
+
+									<footer id="footer1">
+										<span id="links">
+											<i class="fa fa-check-square-o">
+												<a href="#">ARTICLE</a> 
+												,
+												<a href="#">ILLUSTRATOR</a>
+											</i>
+
+
+										</span>
+
+										<span class="comment-link">
+											<i class="fa fa-comments-o"></i>				
+										</span>
+									</footer>
+								</article>
+							</div>
+							<!--LR-->
+							<div class="col-sm-4 col-md-4">
+								<article id="article1">
+
+									<!--Phần đầu-->
+									<a href="#" rel="bookmark">  
+										<div class="pts">
+											<div class="gradient1"></div>
+											<img src="images\lr1.png" alt="LIGHTROOM" width="380px">
+										</div>
+									</a>
+
+									<!--Phần giữa-->
+									<div class="article-content">
+										<a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+											<span>&#x2764;</span>
+										</a>
+
+										<header class="phan-dau">
+											<h1>
+												<a href="#" rel="bookmark" style="color:inherit; text-transform: uppercase; text-align:justify;  font-size:25px"> BLEND MÀU SOFT PASTEL BẰNG LIGHTROOM
+												</a>
+											</h1>
+											<p style="text-align: justify;">
+												Bài viết này mình sẽ hướng dẫn các bạn blend màu Soft Pastel bằng Lightroom. Đây cũng là một trong những màu nhẹ nhàng và đơn giản, dành cho những tấm chụp outdoor với mẫu nữ dịu dàng. Ở đây mình sử dụng stock này:   Và đây là kết quả để các bạn so […]
+											</p>
+										</header>
+									</div>
+
+									<footer id="footer1">
+										<span id="links">
+											<i class="fa fa-check-square-o">
+												<a href="#">ARTICLE</a> 
+												,
+												<a href="#">LIGHTROOM</a>
+											</i>
+
+
+										</span>
+
+										<span class="comment-link">
+											<i class="fa fa-comments-o"></i>				
+										</span>
+									</footer>
+								</article>
+							</div>
+						</div><!--Loadmore-->
+					</div>
+				</div>
+
+
+
+
+				<p id="colored-button" class="text-center">	    
+					<button class="btn float-button-light">Tải thêm</button>
+				</p>
+			</section>
+
+
+			<!--Session Download-->
+			<section class="session2">
+				<header id="header1">
+					<nav>
+						<h4>Download</h4>
+						<hr>
+						<ul>
+							<li ><a href="#" data-danhmucanh="all"> Xem tất cả</a></li>
+							<li ><a href="#" data-danhmucanh=".vector">Vector</a></li>
+							<li ><a href="#" data-danhmucanh=".stock">Stocks</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+				<section class="session3">
+					<h1>......</h1>
+					<div class="content">
+						<ul>
+							<li class="stock">
+								<a href="#"><img src="images\3.png" alt="Stock" width="300px" height="600px"></a>
+							</li>
+
+							<li class="stock">
+								<a href="#"><img src="images\5.png" alt="Stock" width="300px" height="300px"></a>
+							</li>
+
+							<li class="stock">
+								<a href="#"><img src="images\4.png" alt="Stock" width="300px" height="600px"></a>
+							</li>
+
+							<li class="stock">
+								<a href="#"><img src="images\6.png" alt="Stock" width="300px" height="400px"></a>
+							</li>
+
+							<li class="stock">
+								<a href="#"><img src="images\7.png" alt="Stock" width="300px" height="600px"></a>
+							</li>
+							<li class="stock">
+								<a href="#"><img src="images\1.jpg" alt="Stock" width="300px" height="600px"></a>
+							</li>
+							<li class="stock">
+								<a href="#"><img src="images\EmGaiMua.jpg" alt="Stock" width="300px" height="600px"></a>
+							</li>
+							<li class="vector">
+								<a href="#" data-scroll-reveal="enter left and move 50px over 1.5s"><img src="images\vector1.png" alt="Vector" width="300px" height="500">
+								</a>
+							</li>
+
+							<li class="vector">
+								<a href="#"><img src="images\vector2.png" alt="Vector" width="300px" height="400px"></a>
+							</li>
+							<li class="vector">
+								<a href="#"><img src="images\vector3.png" alt="Vector" width="300px" height="400px"></a>
+							</li>
+
+							<li class="vector">
+								<a href="#"><img src="images\vector4.png" alt="Vector" width="400px" height="400px"></a>
+							</li>
+
+							<li class="vector">
+								<a href="#"><img src="images\vector5.png" alt="Vector" width="300px" height="300px"></a>
+							</li>
+
+
+						</ul>
+					</div>
+				</section>
+			</section>
+
+			<!--Session Khóa học-->
+			<section class="session5">
+				
+				<div class="content1">
+					<h4>Khóa học</h4>
+					<hr>
+
+					<div class="lopngoai">
+						<div class="lopxam"></div>
+						<img src="images\pts.png" alt="PTS" height="400px" width="380px" class="img1">
+						<div class="gradient1"></div>
+						<div class="hinhvuongngoai"></div>
+						<div class="chuto1">PTS</div>
+						<div class="chunho1">Click vào để xem </div>
+					</div>
+
+					<div class="lopngoai">
+						<img src="images\gridLayout.png" alt="Grid Layout" height="400px" width="380px" class="img">
+						<div class="gradient"></div>
+						<div class="thanhsoc3"></div>
+						<div class="thanhsoc4"></div>
+						<div class="chuto2">Grid Layout</div>
+						<div class="chunho2">Click vào để xem </div>
+					</div>
+
+					<div class="lopngoai">
+						<div class="lopxam"></div>
+						<img src="images\mobileux.png" alt="PTS" height="400px" width="380px" class="img1">
+						<div class="gradient1"></div>
+						<div class="hinhvuongngoai"></div>
+						<div class="chuto1">Mobile UX/UI</div>
+						<div class="chunho1">Click vào để xem </div>
+					</div>
+				</div>
+			</section>
+
+			<!--Session Liên hệ-->
+			<section class="session1">
+				<div class="container">
+					<div class="header">
+						<h4>Liên hệ</h4>
+						<hr>
+					</div>
+
+					<div class="contact-phai" data-scroll-reveal="enter top and move 50px" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
+						<span>
+							<i class="fa fa-map-marker"></i> C.K.T COMPANY
+							<br>
+							<em>
+								109 Ký Con
+								<br>
+								Phường Nguyễn Thái Bình, Quận 1
+							</em>
+						</span>
+						<br>
+						<span>
+							<i class="fa fa-phone"></i> 01222047655
+						</span>
+						<br>
+						<span>
+							<i class="fa fa-envelope"></i> dotcomguy3@gmail.com
+						</span>
+
+					</div>
+
+					<div class="contact-form-phai" data-scroll-reveal="enter left and move 50px over 1.5s" >
+						<div class="form">
+							<form name="contact-form">
+								<div class="fm_namer">
+									<input class="contact-form-name" type="text" name="name" placeholder="Name" onblur="this.placeholder='Name'" onfocus="this.placeholder=''" size="30">
+									<input class="contact-form-email" type="text" name="email" placeholder="Email" onblur="this.placeholder='Email'" onfocus="this.placeholder=''" size="30">
+								</div>
+
+								<div class="fm_message">
+									<textarea class="contact-form-email-message" cols="25" rows="10" name="email-message" onblur="this.placeholder='Message'" onfocus="this.placeholder=''" placeholder="Message"></textarea>
+									<button type="button" class="btn btn-info contact-form-submit">Đăng ký</button>
+								</div>	
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--Footer-->
+			<footer id="foter">
+				<div class="container">
+					<div class="row">
+						<!--Phần bên trái-->
+						<div class="col-md-6">
+							<div class="copyright">
+								<p data-toggle="tooltip" title="Copyright" data-placement="top">Học kỳ I - @2016-2017.</p>
+							</div>
+						</div>
+
+						<!--Phần bên phải-->
+						<div class="col-md-6 text-right">
+							<div class="social-icons">
+								
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" ></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" ></i>
+								</a>
+								<a href="#" class="google">
+									<i class="fa fa-google-plus" ></i>
+								</a>
+								<a href="#" class="youtube">
+									<i class="fa fa-youtube" ></i>
+								</a>
+							</div>	<!--Kết thức .social-icons-->
+						</div>	<!--Kết thức .col-md-6 text-right-->
+
+						<div class="scrollToTop">
+							<img src="images\simple_top_arrow-32.png" alt="Scroll">
+						</div>
+					</div>	<!--Kết thức row-->
+				</div>	<!--Kết thức .container-->
+			</footer><!--Kết thức footer-->
+			
+			<!--Jquery cho SrollReveal()-->
+			<script>
+				window.sr = ScrollReveal();
+				window.sr= ScrollReveal({reset:true});
+
+
+				sr.reveal('.contact-phai', {origin:'left', distance:'50px', duration:500, delay:0, });
+				sr.reveal('.contact-form-phai', {origin:'right', distance:'50px',duration:500, delay:100, });
+
+
+				sr.reveal('.chuatoanbo', {origin:'top', distance:'150px', duration:500, delay:0,});
+
+
+		  //  document.onkeydown = function(e)
+		  //  {
+	   //  	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 ||   e.keyCode === 117 || e.keycode === 17 || e.keycode === 85 || e.keyCode==123 || e.keyCode===8)) 
+	   //   	{
+	   //    	//ctrl+u Alt+c, Alt+v will also be disabled sadly.
+	   //      	  alert('Định coi source hả!!!');
+    //  		}
+	   //    	return false;
+		 	// };
+
+		// document.onkeydown = function(e)
+		//  {
+	 //        if (e.ctrlKey && 
+	 //            (e.keyCode === 67 || 
+	 //             e.keyCode === 86 || 
+	 //             e.keyCode === 85 || 
+	 //             e.keyCode === 117 ||
+	 //             e.keyCode === 123)) 
+	 //        	{
+	 //        		alert('Định coi source hả!!!');
+	 
+		// 	        return false;		        
+		// 	    } 
+		// 	else
+		// 	     {
+		// 	          return true;
+		// 	     }
+		// 	};
+
+		// 	$(document).keypress("u",function(e) 
+		// 	{
+		// 	  if(e.ctrlKey)
+		// 	 {
+
+		// 		return false;
+		// 	}
+		// 	else
+		// 	{
+		// 		return true;
+		// 	}
+		// });
+
+	</script>
+
+	
+</body>
+</html>
